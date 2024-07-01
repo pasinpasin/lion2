@@ -1,0 +1,36 @@
+/*  background: url("../../assets/img/card%20djathtas.png") right no-repeat;
+} */
+
+.nav-link.active {
+  text-decoration: underline;
+  font-weight: bold!important;
+}
+.planimetrialink { text-decoration: none; }
+
+@media (min-width: 768.2px) {
+  #planimetri {
+    /*background: url('../../assets/img/card%20djathtas.png') top right no-repeat, url("../../assets/img/card%20majtas.png") bottom left no-repeat;
+     */
+	 background: url('../img/card-djathtas.png') top right no-repeat, url('../img/card-majtas.png') bottom left no-repeat;
+  }
+}
+
+@media (min-width: 768.2px) {
+  #rowkati {
+    /*background: url("../../assets/img/planimetria%20majtas.png") left / contain no-repeat; */
+	
+	background: url('../img/planimetria-majtas.png') left / contain no-repeat
+  }
+}
+
+@media (max-width: 768px) {
+  #planimetri {
+    background: none;
+  }
+}
+
+@media (max-width: 768px) {
+  #rowkati {
+    background: none;
+  }
+}

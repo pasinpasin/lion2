@@ -1,0 +1,12 @@
+/*  background: url("../../assets/img/card%20djathtas.png") right no-repeat;
+} */
+
+.nav-link.active {
+  text-decoration: underline;
+  font-weight: bold!important;
+}
+.planimetrialink { text-decoration: none; }
+
+
+
+

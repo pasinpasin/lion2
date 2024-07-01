@@ -1,0 +1,11 @@
+@media (min-width: 768.2px) {
+  #cntkerkim {
+    background: url('../img/bg-projekti.png') left / auto no-repeat;
+  }
+}
+
+@media (max-width: 768px) {
+  #cntkerkim {
+    background: none;
+  }
+}

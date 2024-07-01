@@ -1,0 +1,57 @@
+.nav-link.active {
+  text-decoration: underline;
+  font-weight: bold!important;
+}
+
+.planimetrialink {
+  text-decoration: none;
+}
+
+@media (min-width: 768.2px) {
+  #cnttipologjia {
+    /*background: url("../../assets/img/tipokerko.png") left / auto no-repeat;*/ 
+	 background: url('../img/tipokerko.png')  left / auto no-repeat;
+  }
+}
+
+@media (min-width: 768.2px) {
+  #planimetri {
+   /*   background: url('../../assets/img/tipodjathtas.png') center right no-repeat;  */
+    background: url('../img/tipodjathtas.png') center right no-repeat;
+  }
+}
+
+@media (max-width: 768px) {
+  #cnttipologjia {
+    background: none;
+  }
+}
+
+
+
+@media (max-width: 768px) {
+  #planimetri {
+    background: none;
+  }
+}
+
+.mycard {
+  transition: all 1s ease;
+}
+
+.mycard:hover {
+  box-shadow: 5px 6px 6px 2px #e9ecef;
+  transform: scale(1.1);
+}
+
+.divhover {
+  transition: background-color 1s;
+}
+
+
+
+.mycard:hover .divhover {
+  background-color: #FFD580;
+}
+
+
